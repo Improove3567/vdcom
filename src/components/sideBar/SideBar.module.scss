@@ -1,0 +1,37 @@
+.card {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+    p {
+        font-size: 20px;
+        margin-left: 10px;
+        margin-left: 25px;
+    }
+
+}
+
+.activeCard {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: calc(100%);
+    height: 40px;
+    cursor: pointer;
+    background-color: #ffffbf;
+
+    p {
+        font-size: 20px;
+        margin-left: 10px;
+        margin-left: 25px;
+    }
+
+    .stick {
+        width: 4px;
+        height: 40px;
+        background-color: red;
+    }
+}
