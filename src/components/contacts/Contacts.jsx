@@ -24,7 +24,7 @@ const Contacts = () => {
 
     //pagintaion
     const [currentPage, setCurrentPage] = useState(1)
-    const [contactPerPage] = useState(8)
+    const [contactPerPage] = useState(5)
 
     useEffect(() => {
         getContacts();
@@ -77,7 +77,7 @@ const Contacts = () => {
 
     return (
         <Grid sx={{
-            width: '100%',
+            width: '90%',
             height: '85%',
             backgroundColor: '#F1F1F1 ',
             marginLeft: '40px',
