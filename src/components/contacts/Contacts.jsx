@@ -77,8 +77,6 @@ const Contacts = () => {
 
     return (
         <Grid sx={{
-            width: '90%',
-            height: '85%',
             backgroundColor: '#F1F1F1 ',
             marginLeft: '40px',
             padding: '20px'

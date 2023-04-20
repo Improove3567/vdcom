@@ -43,13 +43,18 @@ const ContactTable = ({
             <TableCell align="left">{phoneNumber}</TableCell>
             <TableCell align="left">{address}</TableCell>
             <TableCell align="left"></TableCell>
-            <TableCell align="right">
+            <TableCell align="right" sx={{
+                display: 'flex',
+                justifyContent: 'space-between'
+            }}>
                 <EditIcon sx={{
-                    marginRight: '20px'
+                    marginRight: '0px'
                 }}
                     onClick={() => navigate(`contact/${tid}`)}
                 />
-                <DeleteIcon onClick={onDelete} />
+                <DeleteIcon onClick={onDelete} sx={{
+                    marginRight: '10px'
+                }} />
             </TableCell>
         </TableCellContainer>
     );
